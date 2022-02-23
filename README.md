@@ -4,7 +4,7 @@ SMS Receiver Channel For Android
 
 ## Getting Started
 
-Use channel on the client_side (flutter) and the platform_side (android) and invoke sms receiver method asynchronously thet returns a Future.
+Use channel on the client_side (flutter) and the platform_side (android) and invoke sms receiver method asynchronously that returns a Future.
 
 This method call executes a block of kotlin code on android and after successful completion of the method , it returns the result back to the flutter.
 

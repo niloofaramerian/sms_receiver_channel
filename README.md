@@ -1,16 +1,12 @@
-# sms_receiver_channel
+# SMS Receiver Channel
 
 SMS Receiver Channel For Android
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Use channel on the client_side (flutter) and the platform_side (android) and invoke sms receiver method asynchronously thet returns a Future.
 
-A few resources to get you started if this is your first Flutter project:
+This method call executes a block of kotlin code on android and after successful completion of the method , it returns the result back to the flutter.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_1645638840](https://user-images.githubusercontent.com/69586214/155379078-c13e1e13-4c06-448a-9fe9-0e6863d3764d.png)
+![Screenshot_1645638493](https://user-images.githubusercontent.com/69586214/155379423-9c88b825-f75a-4cb0-b888-b1103f2f0536.png)
